@@ -1,0 +1,9 @@
+node_modules
+.hiraiship
+.DS_Store
+*.log
+.env*
+!.env.example
+dist
+.tanstack
+.output

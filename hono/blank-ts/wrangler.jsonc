@@ -1,0 +1,10 @@
+// Used by `wrangler dev` only. Hiraiship bundles `main` into one Worker
+// itself and ignores the rest of this file: set variables and secrets
+// in the dashboard (locally, in `.dev.vars`).
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hono-blank-ts",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"]
+}

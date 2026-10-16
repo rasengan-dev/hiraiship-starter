@@ -1,0 +1,19 @@
+{
+  "name": "futon-blank-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --import tsx --watch src/dev.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@rasenganjs/futon": "1.0.0-beta.5"
+  },
+  "devDependencies": {
+    "@rasenganjs/runtime": "1.0.0-beta.6",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3"
+  }
+}

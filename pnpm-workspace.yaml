@@ -1,0 +1,10 @@
+packages:
+  - '*/*'
+
+onlyBuiltDependencies:
+  - esbuild
+  - workerd
+
+# rasengan/blank-ts's own override, which pnpm reads only at the root.
+overrides:
+  '@rasenganjs/runtime': 1.0.0-beta.6

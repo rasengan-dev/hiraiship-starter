@@ -1,0 +1,58 @@
+{
+  "vite-react-ts": {
+    "path": "vite/react-ts",
+    "framework": "vite",
+    "name": "Vite + React",
+    "description": "A React single-page app built with Vite.",
+    "styles": "src/styles.css"
+  },
+  "rasengan-blank-ts": {
+    "path": "rasengan/blank-ts",
+    "framework": "rasengan",
+    "name": "Rasengan.js",
+    "description": "A server-rendered Rasengan.js app with file-based routing.",
+    "styles": "src/styles/index.css"
+  },
+  "astro-blank-ts": {
+    "path": "astro/blank-ts",
+    "framework": "astro",
+    "name": "Astro",
+    "description": "A static Astro site, every page prerendered.",
+    "styles": "src/styles/global.css"
+  },
+  "react-router-spa-ts": {
+    "path": "react-router/spa-ts",
+    "framework": "react-router",
+    "name": "React Router",
+    "description": "React Router in framework mode, built as a single-page app.",
+    "styles": "app/styles.css"
+  },
+  "nextjs-export-ts": {
+    "path": "nextjs/export-ts",
+    "framework": "vinext",
+    "name": "Next.js",
+    "description": "A Next.js App Router site exported as static files through vinext.",
+    "styles": "app/globals.css"
+  },
+  "tanstack-start-spa-ts": {
+    "path": "tanstack-start/spa-ts",
+    "framework": "tanstack-start",
+    "name": "TanStack Start",
+    "description": "TanStack Start in SPA mode, file-based routing.",
+    "styles": "src/styles.css"
+  },
+  "hono-blank-ts": {
+    "path": "hono/blank-ts",
+    "framework": "hono",
+    "name": "Hono",
+    "description": "A Hono API running as a Cloudflare Worker.",
+    "styles": null
+  },
+  "futon-blank-ts": {
+    "path": "futon/blank-ts",
+    "framework": "futon",
+    "name": "Futon",
+    "description": "A Futon API running as a Cloudflare Worker.",
+    "styles": null
+  }
+}

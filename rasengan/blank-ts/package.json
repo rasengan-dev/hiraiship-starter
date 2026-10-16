@@ -1,0 +1,31 @@
+{
+  "name": "rasengan-blank-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rasengan dev",
+    "build": "rasengan build",
+    "serve": "rasengan-serve ./dist"
+  },
+  "dependencies": {
+    "@rasenganjs/serve": "beta",
+    "rasengan": "2.0.0-beta.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.4"
+  },
+  "overrides": {
+    "@rasenganjs/runtime": "1.0.0-beta.6"
+  },
+  "pnpm": {
+    "overrides": {
+      "@rasenganjs/runtime": "1.0.0-beta.6"
+    }
+  }
+}

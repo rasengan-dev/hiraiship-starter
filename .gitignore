@@ -1,0 +1,15 @@
+node_modules
+dist
+build
+.hiraiship
+.wrangler
+.astro
+.react-router
+.tanstack
+.rasengan
+.output
+.DS_Store
+*.log
+*.local
+.env*
+!.env.example
