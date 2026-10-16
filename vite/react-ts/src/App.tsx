@@ -6,7 +6,10 @@ export default function App() {
   return (
     <main className="page">
       <header className="header">
-        <span>⚡ hiraiship</span>
+        <span className="brand">
+          <img src="/hiraiship.svg" alt="" />
+          hiraiship
+        </span>
         <nav>
           <a href="https://docs.hiraiship.com" target="_blank" rel="noreferrer">
             Docs

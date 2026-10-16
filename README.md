@@ -23,7 +23,7 @@ meta.json            # key -> { path, framework, name, description, styles }
 scripts/
   check-meta.mjs     # meta.json and the folders agree
   sync-styles.mjs    # copies scripts/shared/* into every starter
-  shared/            # the page styles and favicon every frontend starter uses
+  shared/            # the page styles and the Hiraiship logo mark (header + favicon)
 ```
 
 Every leaf folder is standalone: its own `package.json`, `.gitignore`, README, styles. Nothing at the repository root ever ships with a starter. `meta.json` is the list a tool (a `create-hiraiship` CLI, the dashboard's templates) reads to offer them; its keys match each starter's `package.json` `name`.
@@ -39,7 +39,7 @@ pnpm build          # builds every starter, one at a time
 pnpm check          # meta.json matches the folders
 ```
 
-The styles and favicon are copies of `scripts/shared/`. Edit them there, then `pnpm sync:styles`.
+The styles and the logo mark are copies of `scripts/shared/`. Edit them there, then `pnpm sync:styles`.
 
 ## Adding a starter
 

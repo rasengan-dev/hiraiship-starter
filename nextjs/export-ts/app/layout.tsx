@@ -5,7 +5,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Next.js on Hiraiship',
-  icons: '/favicon.svg',
+  icons: '/hiraiship.svg',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -14,8 +14,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <main className="page">
           <header className="header">
-            <Link href="/" style={{ textDecoration: 'none' }}>
-              ⚡ hiraiship
+            <Link href="/" className="brand">
+              <img src="/hiraiship.svg" alt="" />
+              hiraiship
             </Link>
             <nav>
               <Link href="/">Home</Link>

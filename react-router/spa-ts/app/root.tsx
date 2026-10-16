@@ -8,7 +8,7 @@ export function Layout({ children }: { children: ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/svg+xml" href="/hiraiship.svg" />
         <Meta />
         <Links />
       </head>
@@ -25,8 +25,9 @@ export default function App() {
   return (
     <main className="page">
       <header className="header">
-        <Link to="/" style={{ textDecoration: 'none' }}>
-          ⚡ hiraiship
+        <Link to="/" className="brand">
+          <img src="/hiraiship.svg" alt="" />
+          hiraiship
         </Link>
         <nav>
           <Link to="/">Home</Link>

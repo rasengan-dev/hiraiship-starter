@@ -4,8 +4,9 @@ const RootLayout: LayoutComponent = () => {
   return (
     <main className="page">
       <header className="header">
-        <Link to="/" style={{ textDecoration: 'none' }}>
-          ⚡ hiraiship
+        <Link to="/" className="brand">
+          <img src="/hiraiship.svg" alt="" />
+          hiraiship
         </Link>
         <nav>
           <Link to="/">Home</Link>

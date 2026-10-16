@@ -66,6 +66,19 @@ code {
   font-size: 0.875rem;
 }
 
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.brand img {
+  height: 1.5rem;
+  width: auto;
+}
+
 .header nav {
   display: flex;
   gap: 1rem;

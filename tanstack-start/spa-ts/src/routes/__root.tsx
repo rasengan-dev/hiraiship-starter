@@ -11,7 +11,7 @@ export const Route = createRootRoute({
     ],
     links: [
       { rel: 'stylesheet', href: appCss },
-      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      { rel: 'icon', type: 'image/svg+xml', href: '/hiraiship.svg' },
     ],
   }),
   // The document is rendered through `shellComponent`: SPA mode
@@ -29,8 +29,9 @@ function RootDocument({ children }: { children: ReactNode }) {
       <body>
         <main className="page">
           <header className="header">
-            <Link to="/" style={{ textDecoration: 'none' }}>
-              ⚡ hiraiship
+            <Link to="/" className="brand">
+              <img src="/hiraiship.svg" alt="" />
+              hiraiship
             </Link>
             <nav>
               <Link to="/">Home</Link>
